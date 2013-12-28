@@ -23,4 +23,6 @@ doc/
 .project
 .DS_Store
 .idea
+
+# Ignore Secret Key for Encryption
 .secret
