@@ -1,4 +1,10 @@
 Pbj::Application.routes.draw do
+  #feedback table
+  resources :feedbacks
+
+  #user table
+  resources :users
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
