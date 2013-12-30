@@ -15,14 +15,17 @@
 /log/*.log
 /tmp
 
-# Ignore other unneeded files.
+# Ignore database file for Postgres
 database.yml
+
+
+# Ignore Secret Key for Encryption
+.secret
+
+# Ignore other unneeded files.
 doc/
 *.swp
 *~
 .project
 .DS_Store
 .idea
-
-# Ignore Secret Key for Encryption
-.secret
